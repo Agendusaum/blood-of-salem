@@ -15,7 +15,7 @@
     "setup": false,
     "name": "Lookout",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. You learn 3 players, at least one of whom chose them last night. If no one chose them, you learn so."
+    "ability": "Each night, choose a player. You learn 3 players, at least one of whom chose them tonight (excluding yourself). If no one chose them (excluding yourself), you learn so."
   },
   {
     "id": "sheriff",
