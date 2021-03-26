@@ -255,7 +255,7 @@
     "firstNight": 7,
     "firstNightReminder": "The Ambusher points to a player. The first Townsfolk to choose that player tonight dies and is shown the Ambusher token, after their ability resolves.",
     "otherNight": 0,
-    "otherNightReminder": ""
+    "otherNightReminder": "",
     "reminders": ["Ambush","Die"],
     "remindersGlobal": [],
     "setup": false,
