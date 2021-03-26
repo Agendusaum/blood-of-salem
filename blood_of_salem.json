@@ -39,13 +39,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
-    "otherNightReminder": "Each night*, choose a player (different to last night). They are drunk until dawn.",
+    "otherNightReminder": "The Escort points to a player. That player is drunk until dawn.",
     "reminders": ["Drunk"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Escort",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. You learn if they are a Townsfolk. One player registers falsely to you."
+    "ability": "Each night*, choose a player (different to last night). They are drunk until dawn."
   },
   {
     "id": "jailor",
@@ -99,7 +99,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 10,
-    "otherNightReminder": "The Transporter points to two players. If a player would chose one of them tonight, act as if they chose the other.",
+    "otherNightReminder": "The Transporter points to two living players. If they point to a dead player, show a 'no' head signal and have the Transporter point again. If a player would chose one of them tonight, act as if they chose the other.",
     "reminders": ["Swapped"],
     "remindersGlobal": [],
     "setup": false,
