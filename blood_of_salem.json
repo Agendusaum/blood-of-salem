@@ -39,7 +39,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
-    "otherNightReminder": "The Escort points to a player. That player is drunk until dawn.",
+    "otherNightReminder": "Each night*, choose a player (different to last night). They are drunk until dawn.",
     "reminders": ["Drunk"],
     "remindersGlobal": [],
     "setup": false,
