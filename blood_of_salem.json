@@ -133,8 +133,8 @@
     "reminders": ["Alert","Die","No Ability"],
     "remindersGlobal": [],
     "setup": false,
-    "name": "Acrobat",
-    "team": "outsider",
+    "name": "Veteran",
+    "team": "townsfolk",
     "ability": "Once per game, at night*, choose to go on Alert. If you do, tonight you cannot die, and all non-Demon players who chose you tonight die and learn of you. Their abilities resolve. You are sober and healthy."
   },
   {
@@ -275,7 +275,7 @@
     "remindersGlobal": [],
     "setup": false,
     "name": "Hypnotist",
-    "team": "outsider",
+    "team": "minion",
     "ability": "You know players who choose you at night. Each night*, choose a player. Decide what type of information they receive from the storyteller tonight, if applicable."
   },
   {
@@ -330,7 +330,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 31,
-    "otherNightReminder": "If either good living neighbor is drunk or poisoned, the Acrobat dies.",
+    "otherNightReminder": "The Werewolf points to a player. They die.",
     "reminders": ["Die","Full Moon"],
     "remindersGlobal": [],
     "setup": false,
