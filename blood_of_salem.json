@@ -199,7 +199,7 @@
   },
   {
     "id": "jester",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Outsiders/Jester.png?raw=true",
     "edition": "custom",
     "firstNight": 24,
     "firstNightReminder": "Choose a player that is drunk.",
@@ -223,7 +223,7 @@
     "reminders": ["Drunk","Bulletproof","No ability"],
     "remindersGlobal": [],
     "setup": false,
-    "name": "Acrobat",
+    "name": "Survivor",
     "team": "outsider",
     "ability": "Once per game, at night*, you may choose to put on a bulletproof vest; you cannot die tonight.If you die, 1 player is drunk from now on."
   },
@@ -238,7 +238,7 @@
     "reminders": ["Poisoned"],
     "remindersGlobal": [],
     "setup": false,
-    "name": "Acrobat",
+    "name": "Town Traitor",
     "team": "outsider",
     "ability": "Each night*, choose a player. You become their alignment. If you become Evil, you are poisoned."
   },
@@ -259,7 +259,8 @@
     "reminders": ["Ambush","Die"],
     "remindersGlobal": [],
     "setup": false,
-    "name": "minion",
+    "name": "Ambusher",
+    "team": "minion",
     "ability": "Each night*, choose a player. The first Townsfolk to choose them tonight dies and knows of you. Their ability resolves."
   },
   {
@@ -305,7 +306,7 @@
     "setup": false,
     "name": "Serial Killer",
     "team": "demon",
-    "ability": "Each night*, if either good living neighbor is drunk or poisoned, you die."
+    "ability": "Each night*, choose a player. They die. The first Townsfolk to choose you at night is poisoned until dawn."
   },
   {
     "id": "vampire",
