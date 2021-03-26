@@ -270,7 +270,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 9,
-    "otherNightReminder": "If a player chose the Hypnotist, point to the player and show them that player\u2019s character token. The Hypnotist points to a player, shows the head signal (nod 'yes', shake 'no') for if they want their target to recieve false information, and may point to a character on their sheet if they want their target to be shown that token. ",
+    "otherNightReminder": "If a player chose the Hypnotist, point to the player and show them that player\u2019s character token. The Hypnotist points to a player, shows the head signal (nod 'yes', shake 'no') for if they want their target to recieve false information, may point to a character on their sheet if they want their target to be shown that token, and may point to any number of players if they want their target to be shown those players. ",
     "reminders": ["Hypnotized"],
     "remindersGlobal": [],
     "setup": false,
