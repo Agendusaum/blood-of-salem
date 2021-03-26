@@ -100,7 +100,7 @@
     "firstNightReminder": "",
     "otherNight": 10,
     "otherNightReminder": "The Transporter points to two players. If a player would chose one of them tonight, act as if they chose the other.",
-    "reminders": ["Swapped","Swapped"],
+    "reminders": ["Swapped"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Transporter",
