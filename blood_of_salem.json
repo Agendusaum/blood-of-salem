@@ -336,5 +336,5 @@
     "name": "Werewolf",
     "team": "demon",
     "ability": "Each night*, if you did not wake last night, choose a player: they die. If you woke last night, it is a full moon; Townsfolk are poisoned until dawn."
-  },
+  }
 ]
