@@ -60,7 +60,7 @@
     "setup": false,
     "name": "Jailor",
     "team": "townsfolk",
-    "ability": "Each night*, if you nominated today, choose a player. They can’t die & are drunk until dawn. Once per game, you may shoot: if they are a Minion, they die."
+    "ability": "Each night*, if you nominated today, choose a player. They can’t die & are drunk until dawn. Once per game, you may also shoot them: if they are a Minion, they die."
   },
   {
     "id": "medium",
@@ -135,7 +135,7 @@
     "setup": false,
     "name": "Veteran",
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose to go on Alert. If you do, tonight you cannot die, and all non-Demon players who chose you tonight die and learn of you. Their abilities resolve. You are sober and healthy."
+    "ability": "Once per game, at night*, choose to go on Alert. If you do, tonight you cannot die, All players who choose you tonight learn you are in play and die at dawn (except the Demon). You are sober and healthy."
   },
   {
     "id": "vigilante",
@@ -144,13 +144,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 35,
-    "otherNightReminder": "The Vigilante either shows a 'no' head signal, or points to a player. If that player is a non-Demon, they die. If they are a Townsfolk, the Vigilante dies instead.",
+    "otherNightReminder": "The Vigilante either shows a 'no' head signal, or points to a player. If that player is a Minion or Outsider, they die. If they are a Townsfolk, the Vigilante dies.",
     "reminders": ["Die","No Ability"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Vigilante",
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose a player. A chosen non-Demon dies. If they are a Townsfolk, you die instead."
+    "ability": "Once per game, at night*, choose a player. If a Minion or Outsider, they die. If a Townsfolk, you die."
   },
   {
     "id": "bodyguard",
@@ -159,13 +159,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 25,
-    "otherNightReminder": "The Bodyguard points to a player. That player is Guarded. If they would die, the Bodyguard dies, and that player is woken and shown the Bodyguard token.",
+    "otherNightReminder": "The Bodyguard points to a player. That player is Guarded. If they would die, the Bodyguard dies instead, and that player is woken and shown the Bodyguard token.",
     "reminders": ["Die","Guarded"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Bodyguard",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself). If they would die, you die instead and they learn of you."
+    "ability": "Each night*, choose a player (not yourself). If they would die, you die instead and they learn you are in play."
   },
   {
     "id": "doctor",
@@ -180,7 +180,7 @@
     "setup": false,
     "name": "Doctor",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself). They cannot die until dawn. If they would, you learn so."
+    "ability": "Each night*, choose a player (not yourself). They cannot die until dawn. If they would die, you learn so."
   },
   {
     "id": "executioner",
@@ -203,14 +203,14 @@
     "edition": "custom",
     "firstNight": 24,
     "firstNightReminder": "Choose a player that is drunk.",
-    "otherNight": 37,
-    "otherNightReminder": "If the Jester was mad as the Jester today, choose if they die.",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "reminders": ["Drunk","Die"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Jester",
     "team": "outsider",
-    "ability": "1 player is drunk, even if you are dead. If you are executed, you are drunk. If you are mad about being the Jester, you might die tonight."
+    "ability": "1 player is drunk. If you are mad about being an Outsider, you might retain your ability while dead."
   },
   {
     "id": "survivor",
@@ -218,14 +218,14 @@
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 23,
-    "otherNightReminder": "The Survivor shows the head signal (nod 'yes', shake 'no') for if they want to put on their bulletproof vest.",
-    "reminders": ["Drunk","Bulletproof","No ability"],
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": ["Drunk","No ability"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Survivor",
     "team": "outsider",
-    "ability": "Once per game, at night*, you may choose to put on a bulletproof vest; you cannot die tonight. If you die, 1 player is drunk from now on."
+    "ability": "The first time you die at night, you don't. If you die, the last Townsfolk who nominated you is drunk from now on."
   },
   {
     "id": "towntraitor",
@@ -270,13 +270,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 9,
-    "otherNightReminder": "If a player chose the Hypnotist, point to the player and show them that player\u2019s character token. The Hypnotist points to a player, shows the head signal (nod 'yes', shake 'no') for if they want their target to recieve false information, may point to a character on their sheet if they want their target to be shown that token, and may point to any number of players if they want their target to be shown those players. ",
+    "otherNightReminder": "The Hypnotist points to a player, shows the head signal (nod 'yes', shake 'no') for if they want their target to recieve false information, may point to a character on their sheet if they want their target to be shown that token, and may point to any number of players if they want their target to be shown those players. ",
     "reminders": ["Hypnotized"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Hypnotist",
     "team": "minion",
-    "ability": "You know players who choose you at night. Each night*, choose a player. Decide what type of information they receive from the storyteller tonight, if applicable."
+    "ability": "Each night*, choose a player. Decide what type of information they receive from the storyteller tonight, if applicable."
   },
   {
     "id": "Arsonist",
@@ -336,6 +336,6 @@
     "setup": false,
     "name": "Werewolf",
     "team": "demon",
-    "ability": "Each night*, if you did not wake last night, choose a player: they die. If you woke last night, it is a full moon; Townsfolk are poisoned until dawn."
+    "ability": "Each night*, if you did not wake last night, choose a player: they die. If you woke last night, it is a full moon; all Townsfolk are poisoned until dawn."
   }
 ]
