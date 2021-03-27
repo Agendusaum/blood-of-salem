@@ -129,13 +129,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "The Veteran shows the head signal (nod 'yes', shake 'no') for if they want to go on Alert. If a player chooses them while on Alert, show the player the Veteran token.",
+    "otherNightReminder": "The Veteran shows the head signal (nod 'yes', shake 'no') for if they want to go on Alert. If a player chooses them while on Alert, show the player the Veteran token. They die at the end of tonight, unless they are the Demon.",
     "reminders": ["Alert","Die","No Ability"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Veteran",
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose to go on Alert. If you do, tonight you cannot die, All players who choose you tonight learn you are in play and die at dawn (except the Demon). You are sober and healthy."
+    "ability": "Once per game, at night*, choose to go on Alert. If you do, tonight you cannot die. All players who choose you tonight learn you are in play and die at the end of tonight (except the Demon). You are sober and healthy."
   },
   {
     "id": "vigilante",
@@ -255,13 +255,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 7,
-    "otherNightReminder": "The Ambusher points to a player. The first Townsfolk to choose that player tonight dies and is shown the Ambusher token, after their ability resolves.",
+    "otherNightReminder": "The Ambusher points to a player. The first Townsfolk to choose that player tonight is shown the Ambusher token and dies at the end of tonight.",
     "reminders": ["Ambush","Die"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Ambusher",
     "team": "minion",
-    "ability": "Each night*, choose a player. The first Townsfolk to choose them tonight dies and knows of you. Their ability resolves."
+    "ability": "Each night*, choose a player. The first Townsfolk to choose them tonight learns that you are in play, and dies at the end of tonight."
   },
   {
     "id": "hypnotist",
@@ -291,7 +291,7 @@
     "setup": true,
     "name": "Arsonist",
     "team": "demon",
-    "ability": "Each night, choose a player. They are doused along with the first non-doused player who chose you tonight. If you choose yourself, instead all doused players die and are no longer doused. You know who is doused, and they register as an evil minion or demon. [+1 Outsider]"
+    "ability": "Each night, choose a player: they and the first non-doused player to choose you tonight are doused. If you chose yourself, instead all doused players die and are undoused. You know who is doused. Doused players might register as an Evil Minion or Demon. [+1 Outsider]"
   },
   {
     "id": "serialkiller",
