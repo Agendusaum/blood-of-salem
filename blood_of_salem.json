@@ -39,13 +39,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
-    "otherNightReminder": "The Escort points to a player. That player is drunk until dawn.",
+    "otherNightReminder": "The Escort points to a player. That player is drunk.",
     "reminders": ["Drunk"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Escort",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (different to last night). They are drunk until dawn."
+    "ability": "Each night*, choose a player (different to last night). They are drunk tonight."
   },
   {
     "id": "jailor",
@@ -54,13 +54,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
-    "otherNightReminder": "If the Jailor nominated today, they point to a player, and shows the head signal (nod 'yes', shake 'no') for if they want to shoot. That player is Jailed. If the Jailor shoots a Minion, the Minion dies.",
+    "otherNightReminder": "If the Jailor nominated today, they point to a player, and shows the head signal (nod 'yes', shake 'no') for if they want to shoot. That player is Jailed tonight. If the Jailor shoots a Minion, the Minion dies.",
     "reminders": ["Die","Jailed","Nominated","No shot"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Jailor",
     "team": "townsfolk",
-    "ability": "Each night*, if you nominated today, choose a player. They can’t die & are drunk until dawn. Once per game, you may also shoot them: if they are a Minion, they die."
+    "ability": "Each night*, if you nominated today, choose a player. They can’t die & are drunk tonight. Once per game, you may also shoot them: if they are a Minion, they die."
   },
   {
     "id": "medium",
@@ -90,7 +90,7 @@
     "setup": false,
     "name": "Retributionist",
     "team": "townsfolk",
-    "ability": "Each night*, choose a first and second player. If the first is a dead Townsfolk who chooses one player at night, you gain their ability until dawn and use it on the second. Otherwise, you are drunk until dawn."
+    "ability": "Each night*, choose a first and second player. If the first is a dead Townsfolk who chooses one player at night, you gain their ability tonight and use it on the second. Otherwise, you are drunk tonight."
   },
   {
     "id": "transporter",
@@ -180,7 +180,7 @@
     "setup": false,
     "name": "Doctor",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself). They cannot die until dawn. If they would die, you learn so."
+    "ability": "Each night*, choose a player (not yourself). They cannot die tonight. If they would die, you learn so."
   },
   {
     "id": "executioner",
@@ -306,7 +306,7 @@
     "setup": false,
     "name": "Serial Killer",
     "team": "demon",
-    "ability": "Each night*, choose a player. They die. The first Townsfolk to choose you at night is poisoned until dawn."
+    "ability": "Each night*, choose a player. They die. The first Townsfolk to choose you at night is poisoned tonight."
   },
   {
     "id": "vampire",
@@ -336,6 +336,6 @@
     "setup": false,
     "name": "Werewolf",
     "team": "demon",
-    "ability": "Each night*, if you did not wake last night, choose a player: they die. If you woke last night, it is a full moon; all Townsfolk are poisoned until dawn."
+    "ability": "Each night*, if you did not wake last night, choose a player: they die. If you woke last night, it is a full moon; all Townsfolk are poisoned tonight."
   }
 ]
