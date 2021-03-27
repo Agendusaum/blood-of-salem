@@ -276,7 +276,7 @@
     "setup": false,
     "name": "Hypnotist",
     "team": "minion",
-    "ability": "Each night*, choose a player. Decide what type of information they receive from the storyteller tonight, if applicable."
+    "ability": "Each night*, choose a player. Choose what information they receive from the storyteller tonight, if applicable."
   },
   {
     "id": "Arsonist",
