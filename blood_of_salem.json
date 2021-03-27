@@ -55,7 +55,7 @@
     "firstNightReminder": "",
     "otherNight": 19,
     "otherNightReminder": "If the Jailor nominated today, they point to a player, and shows the head signal (nod 'yes', shake 'no') for if they want to shoot. That player is Jailed. If the Jailor shoots a Minion, the Minion dies.",
-    "reminders": ["Die","Jailed","Nominated"],
+    "reminders": ["Die","Jailed","Nominated","No shot"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Jailor",
@@ -225,7 +225,7 @@
     "setup": false,
     "name": "Survivor",
     "team": "outsider",
-    "ability": "Once per game, at night*, you may choose to put on a bulletproof vest; you cannot die tonight.If you die, 1 player is drunk from now on."
+    "ability": "Once per game, at night*, you may choose to put on a bulletproof vest; you cannot die tonight. If you die, 1 player is drunk from now on."
   },
   {
     "id": "towntraitor",
