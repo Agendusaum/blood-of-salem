@@ -225,7 +225,7 @@
     "setup": false,
     "name": "Survivor",
     "team": "outsider",
-    "ability": "The first time you die at night, you don't. If you die, the last Townsfolk who nominated you is drunk from now on."
+    "ability": "The first time you die at night, you don't. If you die, 1 player is drunk from now on."
   },
   {
     "id": "towntraitor",
