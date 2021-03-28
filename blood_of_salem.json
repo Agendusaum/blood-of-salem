@@ -69,13 +69,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 43,
-    "otherNightReminder": "Show the Medium two character tokens, at least one of which is in play and dead.",
+    "otherNightReminder": "Show the Medium two character tokens, one is both dead and in play. The other is not.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "name": "Medium",
     "team": "townsfolk",
-    "ability": "Each night*, if anyone is dead, you learn two roles, at least one of which is in play and dead."
+    "ability": "Each night*, if anyone is dead, you learn two roles, one is both dead and in play. The other is not."
   },
   {
     "id": "retributionist",
@@ -315,13 +315,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 30,
-    "otherNightReminder": "The Vampire points to a player. That player dies. Or, if that player was a Townsfolk and there are no other Vampire in play: Show the Vampire the Vampire token. The chosen player is now an evil vampire. Wake the new Vampire. Show the 'You are' card, then the Vampire token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "otherNightReminder": "The Vampire points to a player. That player dies. Or, if that player was a Townsfolk and there are no other Vampire in play: Show the Vampire the Vampire token. The chosen player is now an Evil Vampire. Wake the new Vampire. Show the 'You are' card, then the Vampire token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": ["Die","Poisoned"],
     "remindersGlobal": [],
     "setup": true,
     "name": "Vampire",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The first Townsfolk this would kill instead becomes an Evil Vampire and is poisoned. You learn this. [\u22121 Outsider]"
+    "ability": "Each night*, choose a player: they die. The first Townsfolk this would kill instead becomes an Evil Vampire and is poisoned. You learn this. If 5 or fewer players live, including 2 Vampires, a Vampire dies tonight. [\u22121 Outsider]"
   },
   {
     "id": "werewolf",
