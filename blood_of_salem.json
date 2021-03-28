@@ -150,7 +150,7 @@
     "setup": false,
     "name": "Vigilante",
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose a player. If a Minion or Outsider, they die. If a Townsfolk, you die."
+    "ability": "Once per game, at night*, choose a player. If a Minion or Outsider, they die."
   },
   {
     "id": "bodyguard",
