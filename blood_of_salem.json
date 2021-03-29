@@ -39,13 +39,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
-    "otherNightReminder": "The Escort points to a player. That player is drunk.",
-    "reminders": ["Drunk"],
+    "otherNightReminder": "The Escort points to a player. and shows the head signal (nod 'yes') for if they want that play to be drunk (shake 'no') for if they want that player to be sober and healthy.",
+    "reminders": ["Drunk","Sober & Healthy"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Escort",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (different to last night). They are drunk tonight."
+    "ability": "Each night*, choose a player (different from last night). Tonight, they are drunk, or they are sober and healthy tonight (your choice). You are sober and healthy."
   },
   {
     "id": "jailor",
@@ -306,7 +306,7 @@
     "setup": false,
     "name": "Serial Killer",
     "team": "demon",
-    "ability": "Each night*, choose a player. They die. The first Townsfolk to choose you at night is poisoned tonight."
+    "ability": "Each night*, choose a player. They die. The first Townsfolk to choose you at night is poisoned tonight. You are sober and healthy."
   },
   {
     "id": "vampire",
@@ -330,12 +330,12 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 31,
-    "otherNightReminder": "The Werewolf points to a player. They die.",
+    "otherNightReminder": "If it is an even night, the Werewolf points to a player. They die.",
     "reminders": ["Die","Full Moon"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Werewolf",
     "team": "demon",
-    "ability": "Each night*, if you did not wake last night, choose a player: they die. If you woke last night, it is a full moon; all Townsfolk are poisoned tonight."
+    "ability": "On even nights, choose a player. They die. On odd nights*, all Townsfolk are poisoned."
   }
 ]
