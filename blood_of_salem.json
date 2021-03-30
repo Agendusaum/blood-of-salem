@@ -1,10 +1,16 @@
 [
   {
+    "id": "_meta",
+    "name": "Town of Salem",
+    "author": "Aggenda",
+	"logo": "https://i.postimg.cc/Wbs3WTMb/Town-of-salem.png"
+},
+  {
     "id": "investigator"
   },
   {
     "id": "lookout",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Lookout.png?raw=true",
+    "image": "https://i.postimg.cc/sx42jNRr/Lookout.png",
     "edition": "custom",
     "firstNight": 30,
     "firstNightReminder": "The Lookout points to 1 player. Point to 3 players, at least one of which chose the Lookout\u2019s target tonight. The Lookout points to 1 player. Point to 3 players, at least one of which chose the Lookout\u2019s target tonight. Or, if no one chose their target, shake your head to signal 'no'.",
@@ -19,7 +25,7 @@
   },
   {
     "id": "sheriff",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Sheriff.png?raw=true",
+    "image": "https://i.postimg.cc/bwNZJpJF/Sheriff.png",
     "edition": "custom",
     "firstNight": 28,
     "firstNightReminder": "The Sheriff points to a player. Show the head signal (nod 'yes', shake 'no') for whether that player is a Townsfolk.",
@@ -34,7 +40,7 @@
   },
   {
     "id": "escort",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Escort.png?raw=true",
+    "image": "https://i.postimg.cc/P53Pv9vf/Escort.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -49,7 +55,7 @@
   },
   {
     "id": "jailor",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/jailor.png?raw=true",
+    "image": "https://i.postimg.cc/CL4ZSzFq/jailor.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -64,7 +70,7 @@
   },
   {
     "id": "medium",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Medium.png?raw=true",
+    "image": "https://i.postimg.cc/qBsqxz65/Medium.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -79,7 +85,7 @@
   },
   {
     "id": "retributionist",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/retributionist.png?raw=true",
+    "image": "https://i.postimg.cc/Dy5zRHgQ/retributionist.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -94,7 +100,7 @@
   },
   {
     "id": "transporter",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Transporter.png?raw=true",
+    "image": "https://i.postimg.cc/7Z6L49sF/Transporter.pn",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -109,7 +115,7 @@
   },
   {
     "id": "vampirehunter",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/vampire%20hunter.png?raw=true",
+    "image": "https://i.postimg.cc/SKnj6dc6/vampire-hunter.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -124,7 +130,7 @@
   },
   {
     "id": "veteran",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Veteran.png?raw=true",
+    "image": "https://i.postimg.cc/Gm5mmD6H/Veteran.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -139,7 +145,7 @@
   },
   {
     "id": "vigilante",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Vigilante.png?raw=true",
+    "image": "https://i.postimg.cc/yN3Ygdzn/Vigilante.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -154,7 +160,7 @@
   },
   {
     "id": "bodyguard",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Bodyguard.png?raw=true",
+    "image": "https://i.postimg.cc/59LYKsTp/Bodyguard.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -169,7 +175,7 @@
   },
   {
     "id": "doctor",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Townsfolk/Doctor.png?raw=true",
+    "image": "https://i.postimg.cc/ZR3Rgq70/Doctor.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -184,7 +190,7 @@
   },
   {
     "id": "executioner",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Outsiders/Executioner.png?raw=true",
+    "image": "https://i.postimg.cc/Y0H9wwZR/Executioner.png",
     "edition": "custom",
     "firstNight": 20,
     "firstNightReminder": "Point to a Good player to show the Executioner\u2019s target.",
@@ -199,13 +205,13 @@
   },
   {
     "id": "jester",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Outsiders/Jester.png?raw=true",
+    "image": "https://i.postimg.cc/J48yfbW8/Jester.png",
     "edition": "custom",
     "firstNight": 24,
     "firstNightReminder": "Choose a player that is drunk.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Drunk","Die"],
+    "reminders": ["Drunk"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Jester",
@@ -214,7 +220,7 @@
   },
   {
     "id": "survivor",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Outsiders/Survivor.png?raw=true",
+    "image": "https://i.postimg.cc/ydq6FH1K/Survivor.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -229,7 +235,7 @@
   },
   {
     "id": "towntraitor",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Outsiders/TownTraitorMafioso.png?raw=true",
+    "image": "https://i.postimg.cc/FKwzDSx2/Town-Traitor-Mafioso.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -250,7 +256,7 @@
   },
   {
     "id": "ambusher",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Minions/Ambusher.png?raw=true",
+    "image": "https://i.postimg.cc/YSzDxNkS/Ambusher.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -265,7 +271,7 @@
   },
   {
     "id": "hypnotist",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Minions/Hypnotist.png?raw=true",
+    "image": "https://i.postimg.cc/4yqW3BvW/Hypnotist.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -280,7 +286,7 @@
   },
   {
     "id": "Arsonist",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Demons/Arsonist.png?raw=true",
+    "image": "https://i.postimg.cc/7hfBDpzC/Arsonist.png",
     "edition": "custom",
     "firstNight": 23,
     "firstNightReminder": "Point to all doused players. The arsonist chooses a player. That player is doused. If the arsonists points to themselves, all doused players die, and are no longer doused.",
@@ -295,7 +301,7 @@
   },
   {
     "id": "serialkiller",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Demons/Seriel%20Killer.png?raw=true",
+    "image": "https://i.postimg.cc/xCjxpkT3/Seriel-Killer.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -310,7 +316,7 @@
   },
   {
     "id": "vampire",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Demons/Vampire.png?raw=true",
+    "image": "https://i.postimg.cc/mDddvbPf/Vampire.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -325,7 +331,7 @@
   },
   {
     "id": "werewolf",
-    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Demons/Werewolf.png?raw=true",
+    "image": "https://i.postimg.cc/7PWsXZvS/Werewolf.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
