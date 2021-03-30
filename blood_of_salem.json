@@ -331,7 +331,7 @@
     "firstNightReminder": "",
     "otherNight": 31,
     "otherNightReminder": "If it is an even night, the Werewolf points to a player. They die.",
-    "reminders": ["Die","Full Moon"],
+    "reminders": ["Die","Poisoned"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Werewolf",
