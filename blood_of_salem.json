@@ -31,12 +31,12 @@
     "firstNightReminder": "The Sheriff points to a player. Show the head signal (nod 'yes', shake 'no') for whether that player is a Townsfolk.",
     "otherNight": 39,
     "otherNightReminder": "The Sheriff points to a player. Show the head signal (nod 'yes', shake 'no') for whether that player is a Townsfolk.",
-    "reminders": ["Red herring"],
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "name": "Sheriff",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. You learn if they are a Townsfolk. One player registers falsely to you."
+    "ability": "Each night, choose a player. You learn if they are a Townsfolk."
   },
   {
     "id": "escort",
@@ -135,7 +135,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "The Veteran shows the head signal (nod 'yes', shake 'no') for if they want to go on Alert. At the end of tonight, if the Veteran was on Alert, all players who chose them tonight are shown the Veteran token and die.",
+    "otherNightReminder": "The Veteran shows the head signal (nod 'yes', shake 'no') for if they want to go on Alert. At the end of tonight, if the Veteran was on Alert, all players who chose them tonight are shown the Veteran token and die (except the Demon).",
     "reminders": ["Alert","Die","No Ability"],
     "remindersGlobal": [],
     "setup": false,
