@@ -240,13 +240,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 27,
-    "otherNightReminder": "The Town Traitor points to a player. The Town Traitor becomes that player\u2019s alignment. Show the 'You are' card. Show the hand signal (thumbs-up 'good', thumbs-down 'evil') for the Town Traitor\u2019s current alignment. If the Town Traitor becomes Evil, they are poisoned.",
-    "reminders": ["Poisoned"],
+    "otherNightReminder": "If the Town Traitor causes the Demon to kill, The Demon points to a player. They die.",
+    "reminders": ["Die"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Town Traitor",
     "team": "outsider",
-    "ability": "Each night*, choose a player. You become their alignment. If you become Evil, you are poisoned."
+    "ability": "Any ability which targets the Demon might target you instead. If you are executed on a day that is equal to or less than the starting number of evil players, the Demon chooses a player tonight: They die."
   },
   {
     "id": "witch"
