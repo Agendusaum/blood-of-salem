@@ -226,12 +226,12 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Drunk","No ability"],
+    "reminders": ["Drunk"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Survivor",
     "team": "outsider",
-    "ability": "The first time you die at night, you don't. If you die, 1 player is drunk from now on."
+    "ability": "You cannot die during the second night. If you die, 1 player is drunk from now on."
   },
   {
     "id": "towntraitor",
