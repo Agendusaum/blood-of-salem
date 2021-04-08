@@ -246,7 +246,8 @@
     "setup": false,
     "name": "Town Traitor",
     "team": "outsider",
-    "ability": "Any ability which targets the Demon might target you instead. If you are executed on a day that is equal to or less than the starting number of evil players, the Demon chooses a player tonight: They die."
+    "ability": "If night 3 has not passed, and you died today or tonight, the next time the Demon acts, they choose a player. They die.
+"
   },
   {
     "id": "witch"
