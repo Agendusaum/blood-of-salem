@@ -343,7 +343,7 @@
     "name": "Werewolf",
     "team": "demon",
     "ability": "On even nights, choose a player. They die. On odd nights*, all Townsfolk are poisoned."
-  }
+  },
   {
     "id": "pirate",
     "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Pirate.png?raw=true",
