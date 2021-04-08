@@ -344,4 +344,19 @@
     "team": "demon",
     "ability": "On even nights, choose a player. They die. On odd nights*, all Townsfolk are poisoned."
   }
+  {
+    "id": "pirate",
+    "image": "https://github.com/Agendusaum/blood-of-salem/blob/main/Pirate.png?raw=true",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": "0",
+    "otherNightReminder": "",
+    "reminders": ["Extra Dead Vote"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Pirate",
+    "team": "traveler",
+    "ability": "Each day, you may publicly duel a player in Rock, Paper, Scissors. If you win, you learn their role or steal their deadvote (their choice). You can hold an additional deadvote."
+  }
 ]
