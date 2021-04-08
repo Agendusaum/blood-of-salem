@@ -246,8 +246,7 @@
     "setup": false,
     "name": "Town Traitor",
     "team": "outsider",
-    "ability": "If night 3 has not passed, and you died today or tonight, the next time the Demon acts, they choose a player. They die.
-"
+    "ability": "If night 3 has not passed, and you died today or tonight, the next time the Demon acts, they choose a player. They die."
   },
   {
     "id": "witch"
