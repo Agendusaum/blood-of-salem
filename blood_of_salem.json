@@ -350,13 +350,13 @@
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": "0",
+    "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Extra Dead Vote"],
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "name": "Pirate",
     "team": "traveler",
-    "ability": "Each day, you may publicly duel a player in Rock, Paper, Scissors. If you win, you learn their role or steal their deadvote (their choice). You can hold an additional deadvote."
+    "ability": "Each day, after the first nomination, you may publicly duel a player who voted in Rock, Paper, Scissors. If you win, you steal their vote token. If they do not have one, they die instead."
   }
 ]
