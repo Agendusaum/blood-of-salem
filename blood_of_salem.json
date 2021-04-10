@@ -216,7 +216,7 @@
     "setup": false,
     "name": "Jester",
     "team": "outsider",
-    "ability": "1 player is drunk. If you are mad about being an Outsider, you might retain your ability while dead."
+    "ability": "1 Good player is drunk. If you are mad about being an Outsider, you might retain your ability while dead."
   },
   {
     "id": "survivor",
@@ -231,7 +231,7 @@
     "setup": false,
     "name": "Survivor",
     "team": "outsider",
-    "ability": "You cannot die during the second night. If you die, 1 player is drunk from now on."
+    "ability": "You cannot die during the second night. If you die, 1 Good player is drunk from now on."
   },
   {
     "id": "towntraitor",
