@@ -60,7 +60,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
-    "otherNightReminder": "If the Jailor nominated today, they point to a player, and shows the head signal (nod 'yes', shake 'no') for if they want to shoot. That player is Jailed tonight. If the Jailor shoots a Minion, the Minion dies.",
+    "otherNightReminder": "If the Jailor nominated today, they point to a player, and show the head signal (nod 'yes', shake 'no') for if they want to shoot. That player is Jailed tonight. If the Jailor shoots a Minion, the Minion dies.",
     "reminders": ["Die","Jailed","Nominated","No shot"],
     "remindersGlobal": [],
     "setup": false,
@@ -357,6 +357,6 @@
     "setup": false,
     "name": "Pirate",
     "team": "traveler",
-    "ability": "Each day, after the first nomination, you may publicly duel a player who voted in Rock, Paper, Scissors. If you win, you steal their vote token. If they do not have one, they die instead."
+    "ability": "Each day, after the first nomination, you may publicly duel a player who voted in Rock, Paper, Scissors. If you win, you steal their vote token. You may give away your vote token(s), even while dead."
   }
 ]
