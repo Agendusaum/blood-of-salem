@@ -357,6 +357,6 @@
     "setup": false,
     "name": "Pirate",
     "team": "traveler",
-    "ability": "Each day, after the first nomination, you may publicly duel a player who voted in Rock, Paper, Scissors. If you win, you steal their vote token. You may give away your vote token(s), even while dead."
+    "ability": "Each day,  you may publicly duel a player in Rock, Paper, Scissors. If you win, you steal their vote token. You may give away your vote token(s), even while dead."
   }
 ]
