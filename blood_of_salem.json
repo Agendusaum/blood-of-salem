@@ -327,7 +327,7 @@
     "setup": true,
     "name": "Vampire",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The first Townsfolk this would kill instead becomes an Evil Vampire and is poisoned. You learn this. If 5 or fewer players live, including 2 Vampires, a Vampire dies tonight. [\u22121 Outsider]"
+    "ability": "Each night*, choose a player: they die. The first Townsfolk this would kill instead becomes an Evil Vampire and is poisoned. You learn this. If 5 or fewer players live (Travellers don’t count), including 2 Vampires, a Vampire dies tonight. [\u22121 Outsider]"
   },
   {
     "id": "werewolf",
