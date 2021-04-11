@@ -81,7 +81,7 @@
     "setup": false,
     "name": "Medium",
     "team": "townsfolk",
-    "ability": "Each night*, if anyone is dead, you learn two roles, one is both dead and in play. The other is not."
+    "ability": "Each night*, if anyone is dead, you learn two roles, one is the role of a dead player. The other is not."
   },
   {
     "id": "retributionist",
