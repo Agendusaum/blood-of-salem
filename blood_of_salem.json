@@ -24,7 +24,6 @@
     "ability": "Each night, choose a player. You learn if they are a Townsfolk."
   },
   {
-    "id": "lookout",
     "image": "https://i.postimg.cc/sx42jNRr/Lookout.png",
     "edition": "custom",
     "firstNight": 30,
@@ -51,7 +50,7 @@
     "setup": false,
     "name": "Doctor",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself). They cannot die tonight. If they would die, you learn so."
+    "ability": "Each night*, choose a player (different to last night). They cannot die tonight. If they would die, you learn so. You may only choose yourself this way once per game."
   },
   {
     "id": "bodyguard",
@@ -66,7 +65,7 @@
     "setup": false,
     "name": "Bodyguard",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself). If they would die, you die instead and they learn you are in play."
+    "ability": "Each night*, choose a player (different to last night). If they would die, you die instead and they learn you are in play. You may only choose yourself this way once per game."
   },
   {
     "id": "medium",
@@ -111,7 +110,7 @@
     "setup": false,
     "name": "Transporter",
     "team": "townsfolk",
-    "ability": "Each night*, choose two living players. Tonight, any abilities that target one instead target the other. You cannot kill the Demon this way. You are sober and healthy."
+    "ability": "Each night*, choose two living players. Tonight, any Evil players that target one instead target the other. You cannot kill the Demon this way. You are sober and healthy."
   },
  {
     "id": "retributionist",
