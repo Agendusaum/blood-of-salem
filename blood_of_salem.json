@@ -24,6 +24,7 @@
     "ability": "Each night, choose a player. You learn if they are a Townsfolk."
   },
   {
+	"id": "Lookout",
     "image": "https://i.postimg.cc/sx42jNRr/Lookout.png",
     "edition": "custom",
     "firstNight": 30,
