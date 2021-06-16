@@ -311,7 +311,7 @@
     "setup": false,
     "name": "Werewolf",
     "team": "demon",
-    "ability": "Werewolf. On even nights, choose a player. They die. On odd nights*, your living Townsfolk neighbors are poisoned. If no one died today, instead, all Townsfolk are poisoned, or choose two players, depending on the night."
+    "ability": "On even nights, choose a player. They die. On odd nights*, your living Townsfolk neighbors are poisoned. If no one died today, instead, all Townsfolk are poisoned, or choose two players, depending on the night."
   },
   {
     "id": "serialkiller",
