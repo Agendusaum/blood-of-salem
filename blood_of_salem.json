@@ -110,7 +110,7 @@
     "setup": false,
     "name": "Transporter",
     "team": "townsfolk",
-    "ability": "Each night*, choose two living players. Tonight, any Evil players that target one instead target the other. You cannot kill the Demon this way. You are sober and healthy."
+    "ability": "Each night*, choose two living players. Tonight, any players that target one instead target the other. You cannot kill the Demon this way. You are sober and healthy."
   },
  {
     "id": "retributionist",
