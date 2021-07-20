@@ -75,13 +75,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 43,
-    "otherNightReminder": "Show the Medium two character tokens, one is both dead and in play. The other is not.",
+    "otherNightReminder": "Show the Medium two character tokens, exactly one of which is a dead player's role.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "name": "Medium",
     "team": "townsfolk",
-    "ability": "Each night*, if anyone is dead, you learn two roles, one is the role of a dead player. The other is not."
+    "ability": "Each night*, if anyone is dead, you learn two roles, exactly one is the role of a dead player."
   },
   {
     "id": "escort",
@@ -240,13 +240,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 27,
-    "otherNightReminder": "If the Town Traitor causes the Demon to kill, The Demon points to a player. They die.",
+    "otherNightReminder": "If the Town Traitor died today: Wake the Demon. Show the 'This character has selected you card', then Town Traitor token. The Demon points to a player: They die.",
     "reminders": ["Dead"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Town Traitor",
     "team": "outsider",
-    "ability": "If night 3 has not passed, and you died today or tonight, the next time the Demon acts, they choose a player. That player dies."
+    "ability": "If you died today or tonight, the Demon chooses a player: They die. If just 3 players live, you lose this ability."
   },
   {
     "id": "godfather"
@@ -261,7 +261,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 9,
-    "otherNightReminder": "The Hypnotist points to a player, shows the head signal (nod 'yes', shake 'no') for if they want their target to recieve false information, may point to a character on their sheet if they want their target to be shown that token, and may point to any number of players if they want their target to be shown those players. ",
+    "otherNightReminder": "The Hypnotist points to a player, and may show the head signal (nod 'yes', shake 'no') if they want their target to be shown that head signal, may point to a character on their sheet if they want their target to be shown that token, and may point to any number of players if they want their target to be shown those players.",
     "reminders": ["Hypnotized"],
     "remindersGlobal": [],
     "setup": false,
@@ -357,6 +357,6 @@
     "setup": false,
     "name": "Pirate",
     "team": "traveler",
-    "ability": "Each day,  you may publicly duel a player in Rock, Paper, Scissors. If you win, you steal their vote token. You may give away your vote token(s), even while dead."
+    "ability": "Each day,  you may publicly duel a dead player in Rock, Paper, Scissors. If you win, you steal their vote token. You may give away your vote token(s), even while dead."
   }
 ]
